@@ -24,4 +24,4 @@ for segment in data.dislocations.segments:
 export_file(pipeline, "output/dislocations.ca", "ca")
 
 # Or export dislocations to a ParaView VTK file:
-export_file(pipeline, "output/dislocations.vtk", "vtk/disloc”
+export_file(pipeline, "output/dislocations.vtk", "vtk/disloc”)
